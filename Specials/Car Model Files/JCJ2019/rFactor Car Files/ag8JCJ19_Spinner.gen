@@ -1,0 +1,226 @@
+SearchPath=<VEHDIR>
+SearchPath=<VEHDIR>\ag8JCJ19\
+SearchPath=<VEHDIR>\ag8JCJ19\JCJ19_TyrePack
+
+MASFile=cmaps.mas
+MASFile=ag8JCJ19.mas
+
+ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=ag8JCJ19_chassis.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(Dynamic, Solid, 1024, 1024, ag8JCJ19_SHADOW.DDS) Reflect=True
+Actor=VEHICLE
+
+<STARTUPGRADES>
+Instance=Engine
+{
+Moveable=True
+MeshFile=ag8JCJ19_BUSA.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=RoofFin
+{
+Moveable=True
+MeshFile=ag8JCJ19_fin01.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=Switches
+{
+Moveable=True
+MeshFile=ag8JCJ19_SwitchBox01.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=ThrottleCable
+{
+Moveable=True
+MeshFile=ag8JCJ19_throttlecable01.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=GearSelector
+{
+Moveable=True
+MeshFile=ag8JCJ19_gearselector01.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=Mesh
+{
+Moveable=True
+MeshFile=ag8JCJ19_mesh01.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+------------------------------------------------------------------------------------------------------
+-----SUSPENSION-----
+-----------------------------------------------------------------------------------------------------
+Instance=LF Suspension
+{
+Moveable=True
+MeshFile=ag8JCJ19_LF_Susp.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=RF Suspension
+{
+Moveable=True
+MeshFile=ag8JCJ19_RF_Susp.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=LR Suspension
+{
+Moveable=True
+MeshFile=ag8JCJ19_LR_Susp.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=RR Suspension
+{
+Moveable=True
+MeshFile=ag8JCJ19_RR_Susp.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=LF Spindle
+{
+Moveable=True
+MeshFile=ag8JCJ19_LF_Spind.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+MeshFile=ag8JCJ19_LF_Spind_Wilw.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=RF Spindle
+{
+Moveable=True
+MeshFile=ag8JCJ19_RF_Spind.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+MeshFile=ag8JCJ19_RF_Spind_Wilw.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=LR Spindle
+{
+Moveable=True
+MeshFile=ag8JCJ19_LR_spind_Wilw.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=RR Spindle
+{
+Moveable=True
+MeshFile=ag8JCJ19_RR_spind_Wilw.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+--------------------------------------------------------------------------------------------------------------------
+
+Instance=BUTLER
+{
+Moveable=True
+MeshFile=Butler.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+
+Instance=Panels
+{
+Moveable=True
+MeshFile=ag8JCJ19_panels.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=Pedals
+{
+Moveable=True
+MeshFile=ag8JCJ19_pedals.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=Brakelines
+{
+Moveable=True
+MeshFile=ag8JCJ19_brakelines.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=shockmounts
+{
+Moveable=True
+MeshFile=ag8JCJ19_shockmounts.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=Rshockmounts
+{
+Moveable=True
+MeshFile=ag8JCJ19_Rshockmounts.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=srack
+{
+Moveable=True
+MeshFile=ag8JCJ19_srack.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=swheel
+{
+Moveable=True
+MeshFile=ag8JCJ19_swheel_spin.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=sparetire
+{
+Moveable=True
+MeshFile=ag8JCJ19_SpareTire_Spin.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=LFHub
+{
+Moveable=True
+MeshFile=ag8JCJ19_LF_HUB.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=RFHub
+{
+Moveable=True
+MeshFile=ag8JCJ19_RF_HUB.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=LFwheel<UPNUMBER>
+{
+Moveable=True
+MeshFile=<LFwheel>  LODIn=(0.0) LODOut=(500.0)  Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+MeshFile=<LFtread>  Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=RFwheel<UPNUMBER>
+{
+Moveable=True
+MeshFile=<RFwheel> LODIn=(0.0) LODOut=(500.0)  Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+MeshFile=<RFtread>  Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=LRwheel<UPNUMBER>
+{
+Moveable=True
+MeshFile=<LRwheel> LODIn=(0.0) LODOut=(500.0)  Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+MeshFile=ag8JCJ19_LR_Bearing.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+MeshFile=<LRtread> Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+Instance=RRwheel<UPNUMBER>
+{
+Moveable=True
+MeshFile=<RRwheel> LODIn=(0.0) LODOut=(500.0)  Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+MeshFile=ag8JCJ19_RR_Bearing.gmt Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+MeshFile=<RRtread> Reflect=True ShadowReceiver=True ShadowCaster=(True, Solid, 32, 32)
+}
+
+//<LFBEADEXISTS> Instance=LFBEAD<UPNUMBER>
+//<LFBEADEXISTS> {
+//<LFBEADEXISTS>   Moveable=True
+//<LFBEADEXISTS>   MeshFile=<LFBEADLOCK> Reflect=True ShadowReceiver=True 
+//<LFBEADEXISTS> }
+
+//<RFBEADEXISTS> Instance=RFBEAD<UPNUMBER>
+//<RFBEADEXISTS> {
+//<RFBEADEXISTS>   Moveable=True
+//<RFBEADEXISTS>   MeshFile=<RFBEADLOCK> Reflect=True ShadowReceiver=True 
+//<RFBEADEXISTS> }
+
+<BALLASTEXISTS> Instance=BALLAST<UPNUMBER>
+<BALLASTEXISTS> {
+<BALLASTEXISTS>   Moveable=True
+<BALLASTEXISTS>   MeshFile=<BALLAST> Reflect=True ShadowReceiver=True 
+<BALLASTEXISTS> }
+
+
+
+<STOPUPGRADES>
+
+}

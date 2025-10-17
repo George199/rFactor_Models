@@ -1,0 +1,190 @@
+SearchPath=<VEHDIR>
+SearchPath=<VEHDIR>\ag8JCJ17\
+
+MASFile=ag8JCJ17_TYRES.mas
+MASFile=ag8JCJ17.mas
+MASFile=cmaps.mas
+
+ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=ag8JCJ17_body.gmt Reflect=True
+Actor=VEHICLE
+
+<STARTUPGRADES>
+
+Instance=DEBRIS0<UPNUMBER>
+{
+Moveable=True
+MeshFile=<DEBRIS0> Reflect=True
+}
+
+Instance=BIAS<UPNUMBER>
+{
+Moveable=True
+MeshFile=ag8JCJ17_BIAS.gmt Reflect=True
+MeshFile=<BIAS> Reflect=True
+}
+
+Instance=SEAT<UPNUMBER>
+{
+Moveable=True
+MeshFile=ag8JCJ17_Kirkey.gmt Reflect=True
+MeshFile=ag8JCJ17_harnessSpin.gmt Reflect=True
+MeshFile=<SEAT> Reflect=True
+}
+
+Instance=LFwheel<UPNUMBER>
+{
+Moveable=True
+MeshFile=<LFwheel> Reflect=True
+MeshFile=<LFHUB> Reflect=True
+MeshFile=ag8JCJ17_LF_BDisc.gmt Reflect=True
+}
+
+Instance=RFwheel<UPNUMBER>
+{
+Moveable=True
+MeshFile=<RFwheel> Reflect=True
+MeshFile=<RFHUB> Reflect=True
+MeshFile=ag8JCJ17_RF_BDisc.gmt Reflect=True
+}
+
+Instance=LRwheel<UPNUMBER>
+{
+Moveable=True
+MeshFile=<LRwheel> Reflect=True
+MeshFile=<lRHUB> Reflect=True
+MeshFile=ag8JCJ17_LR_BDisc.gmt Reflect=True
+}
+
+Instance=RRwheel<UPNUMBER>
+{
+Moveable=True
+MeshFile=<RRwheel> Reflect=True
+MeshFile=<RRHUB> Reflect=True
+MeshFile=ag8JCJ17_RR_BDisc.gmt Reflect=True
+}
+
+<LFBEADEXISTS> Instance=LFBEAD<UPNUMBER>
+<LFBEADEXISTS> {
+<LFBEADEXISTS>   Moveable=True
+<LFBEADEXISTS>   MeshFile=<LFBEAD> Reflect=True
+<LFBEADEXISTS> }
+
+<RFBEADEXISTS> Instance=RFBEAD<UPNUMBER>
+<RFBEADEXISTS> {
+<RFBEADEXISTS>   Moveable=True
+<RFBEADEXISTS>   MeshFile=<RFBEAD> Reflect=True
+<RFBEADEXISTS> }
+
+<LRBEADEXISTS> Instance=LRBEAD<UPNUMBER>
+<LRBEADEXISTS> {
+<LRBEADEXISTS>   Moveable=True
+<LRBEADEXISTS>   MeshFile=<LRBEAD> Reflect=True
+<LRBEADEXISTS> }
+
+<RRBEADEXISTS> Instance=RRBEAD<UPNUMBER>
+<RRBEADEXISTS> {
+<RRBEADEXISTS>   Moveable=True
+<RRBEADEXISTS>   MeshFile=<RRBEAD> Reflect=True
+<RRBEADEXISTS> }
+
+Instance=LFSpindle<UPNUMBER>     //calipers
+{
+Moveable=True
+MeshFile=ag8JCJ17_LF_spind.gmt Reflect=True
+MeshFile=<LFSpindle> Reflect=True
+}
+
+Instance=RFSpindle<UPNUMBER>     //calipers
+{
+Moveable=True
+MeshFile=ag8JCJ17_RF_spind.gmt Reflect=True
+MeshFile=<RFSpindle> Reflect=True
+}
+
+Instance=LRSpindle<UPNUMBER>     //calipers
+{
+Moveable=True
+MeshFile=<LRSpindle> Reflect=True
+}
+
+Instance=RRSpindle<UPNUMBER>     //calipers
+{
+Moveable=True
+MeshFile=<RRSpindle> Reflect=True
+}
+
+Instance=DEBRIS1  // LF Suspension
+{
+Moveable=True
+MeshFile=ag8JCJ17_LF_Susp.gmt Reflect=True
+}
+
+Instance=DEBRIS2  // RF Suspension
+{
+Moveable=True
+MeshFile=ag8JCJ17_RF_Susp.gmt Reflect=True
+}
+
+Instance=DEBRIS3<UPNUMBER>  // LR Suspension
+{
+Moveable=True
+MeshFile=<DEBRIS3> Reflect=True
+}
+
+Instance=DEBRIS4<UPNUMBER>  // RR Suspension
+{
+Moveable=True
+MeshFile=<DEBRIS4> Reflect=True
+}
+
+Instance=ARB<UPNUMBER>  // Anti-Roll Bar
+{
+Moveable=True
+MeshFile=<ARB> Reflect=True
+}
+
+Instance=NPLATE<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<NPLATE> Reflect=True
+}
+
+Instance=ENGINE<UPNUMBER>
+{
+Moveable=True
+MeshFile=<ENGINE> Reflect=True
+}
+
+Instance=WHEEL<UPNUMBER>
+{
+Moveable=True
+MeshFile=<WHEEL>  Reflect=True
+}
+
+Instance=MESH<UPNUMBER>
+{
+Moveable=True
+MeshFile=<MESH>  Reflect=True
+}
+
+Instance=GS<UPNUMBER>
+{
+Moveable=True
+MeshFile=<GS>  Reflect=True
+}
+
+Instance=MIRROR<UPNUMBER>
+{
+Moveable=True
+MeshFile=<MIRRORS>  Reflect=True
+}
+
+
+<STOPUPGRADES>
+
+}
