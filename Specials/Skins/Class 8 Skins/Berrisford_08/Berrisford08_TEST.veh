@@ -1,0 +1,25 @@
+HDVehicle=ag8berrisford08\ag8berrisford08.hdv			//
+Graphics=ag8berrisford08\ag8berrisford08.gen			//
+Spinner=ag8berrisford08\ag8berrisford08_spinner.gen		//
+GenString= 					//                                        
+Sounds=Class8.sfx  					// DO NOT CHANGE                
+Cameras=ag8berrisford08\ag8berrisford08.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=ag8berrisford08\ag8berrisford08_cockpitinfo.ini		//
+Upgrades=ag8berrisford08\ag8berrisford08_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="Berrisford08_TEST.dds"		// Skin Name
+Number=				// Number
+Driver=""			// Driver Name
+Description="Test Car"        		// Vehicle Description
+TeamHeadquarters=""			// Grasstrack Club
+
+Category="Class 8"			// Vehicle Class
+FullTeamName="Berrisford 08"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Berrisford 08"        			// Skins Folder
+Classes="Grasstrack8"			// RFM Include Vehicles
+
+
+

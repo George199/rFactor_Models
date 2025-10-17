@@ -1,0 +1,25 @@
+HDVehicle=ag8APH13\ag8APH13.hdv			//
+Graphics=ag8APH13\ag8APH13.gen			//
+Spinner=ag8APH13\ag8APH13_spinner.gen		//
+GenString= 					//                                        
+Sounds=Class8.sfx					// DO NOT CHANGE                
+Cameras=ag8APH13\ag8APH13.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=ag8APH13\ag8APH13_cockpitinfo.ini		//
+Upgrades=ag8APH13\ag8APH13_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="APH13_TEST.dds"		// Skin Name
+Number=				// Number
+Driver=""			// Driver Name
+Description="Test Car"        		// Vehicle Description
+TeamHeadquarters=""			// Grasstrack Club
+
+Category="Class 8"			// Vehicle Class
+FullTeamName="Andy Patrick Motorsport"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Andy Patrick Motorsport"        			// Skins Folder
+Classes="Grasstrack8"			// RFM Include Vehicles
+
+
+

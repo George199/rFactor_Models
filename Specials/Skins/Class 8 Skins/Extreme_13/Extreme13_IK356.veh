@@ -1,0 +1,25 @@
+HDVehicle=ag8extreme13\ag8extreme13.hdv			//
+Graphics=ag8extreme13\ag8extreme13.gen			//
+Spinner=ag8extreme13\ag8extreme13_spinner.gen		//
+GenString= 					//                                        
+Sounds=Class8.sfx  					// DO NOT CHANGE                
+Cameras=ag8extreme13\ag8extreme13.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=ag8extreme13\ag8extreme13_cockpitinfo.ini		//
+Upgrades=ag8extreme13\ag8extreme13_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="Extreme13_IK356.dds"		// Skin Name
+Number=				// Number
+Driver=""			// Driver Name
+Description="IK356 Mitch Wells"        		// Vehicle Description
+TeamHeadquarters="IK"			// Grasstrack Club
+
+Category="Class 8"			// Vehicle Class
+FullTeamName="Extreme13"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Extreme13"        			// Skins Folder
+Classes="Grasstrack8"			// RFM Include Vehicles
+
+
+

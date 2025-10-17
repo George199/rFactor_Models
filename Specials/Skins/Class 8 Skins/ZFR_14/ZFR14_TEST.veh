@@ -1,0 +1,25 @@
+HDVehicle=ag8ZFR14\ag8ZFR14.hdv			//
+Graphics=ag8ZFR14\ag8ZFR14.gen			//
+Spinner=ag8ZFR14\ag8ZFR14_spinner.gen		//
+GenString= 					//                                        
+Sounds=Class8.sfx  					// DO NOT CHANGE                
+Cameras=ag8ZFR14\ag8ZFR14.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=ag8ZFR14\ag8ZFR14_cockpitinfo.ini		//
+Upgrades=ag8ZFR14\ag8ZFR14_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="ZFR14_TEST.dds"		// Skin Name
+Number=				// Number
+Driver=""			// Driver Name
+Description="Test Car"        		// Vehicle Description
+TeamHeadquarters=""			// Grasstrack Club
+
+Category="Class 8"			// Vehicle Class
+FullTeamName="ZFR 14"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="ZFR 14"        			// Skins Folder
+Classes="Grasstrack8"			// RFM Include Vehicles
+
+
+

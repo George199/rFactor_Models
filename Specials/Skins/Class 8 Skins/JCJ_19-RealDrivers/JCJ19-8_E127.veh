@@ -1,0 +1,24 @@
+HDVehicle=ag8JCJ19\ag8JCJ19.hdv			//
+Graphics=ag8JCJ19\ag8JCJ19.gen			//
+Spinner=ag8JCJ19\ag8JCJ19_spinner.gen		//
+GenString= 					//                                        
+Sounds=Class8.sfx  				// DO NOT CHANGE                
+Cameras=ag8JCJ19\ag8JCJ19.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=ag8JCJ19\ag8JCJ19_cockpitinfo.ini	//
+Upgrades=ag8JCJ19\ag8JCJ19_Upgrades8.ini	//
+WCDRIVER="DRIVER" 				//
+//////////////////////////////////////////////////
+
+DefaultLivery="JCJ19-8_E127.dds"		// Skin Name
+Number=				// Number
+Driver=""			// Driver Name
+Description="E127 Dan Hughes"        		// Vehicle Description
+TeamHeadquarters=""			// Grasstrack Club
+
+Category="Class 8"			// Vehicle Class
+FullTeamName="JCJ 2019 Real Drivers"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="JCJ 2019 Real Drivers"        			// Skins Folder
+Classes="Grasstrack8"			// RFM Include Vehicles
+

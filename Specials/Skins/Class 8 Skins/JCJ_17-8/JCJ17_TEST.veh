@@ -1,0 +1,25 @@
+HDVehicle=ag8JCJ17\ag8JCJ17.hdv			//
+Graphics=ag8JCJ17\ag8JCJ17.gen			//
+Spinner=ag8JCJ17\ag8JCJ17_spinner.gen		//
+GenString= 					//                                        
+Sounds=Class8.sfx  					// DO NOT CHANGE                
+Cameras=ag8JCJ17\ag8JCJ17.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=ag8JCJ17\ag8JCJ17_cockpitinfo.ini		//
+Upgrades=ag8JCJ17\ag8JCJ17_Upgrades8.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="JCJ17_TEST.dds"		// Skin Name
+Number=				// Number
+Driver=""			// Driver Name
+Description="Test Car"        		// Vehicle Description
+TeamHeadquarters=""			// Grasstrack Club
+
+Category="Class 8"			// Vehicle Class
+FullTeamName="JCJ17-8"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="JCJ17-8"        			// Skins Folder
+Classes="Grasstrack8"			// RFM Include Vehicles
+
+
+
