@@ -1,0 +1,38 @@
+
+
+SearchPath=GameData\Vehicles
+
+MASFile=Multicar.mas
+
+Instance=TEMPNETVEH
+{
+  Moveable=True
+  MeshFile=Multicar.gmt CollTarget=True HATTarget=False LODIn=(0.0) LODOut=(1000.0)
+
+  Actor=VEHICLE
+
+  Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=tr_lf_lvl1.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.00)
+  }
+
+  Instance=RFTIRE
+  {
+    Moveable=True
+    MeshFile=tr_rf_lvl1.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.00)
+  }
+
+  Instance=LRTIRE
+  {
+    Moveable=True
+    MeshFile=tr_lr_lvl1.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.00)
+  }
+
+  Instance=RRTIRE
+  {
+    Moveable=True
+    MeshFile=tr_rr_lvl1.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.00)
+  }
+}
+

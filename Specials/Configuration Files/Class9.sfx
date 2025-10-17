@@ -1,0 +1,256 @@
+//
+// All information is proprietary to Image Space Incorporated.
+// 
+//            (c) 2005 Image Space Incorporated
+//                   All Rights Reserved.
+//
+
+// ENGINE SOUNDS (INSIDE)
+
+VS_INSIDE_COAST_ENGINE_1=JCJModding\F20C\internal\idle_in.wav
+VS_INSIDE_COAST_ENGINE_2=JCJModding\F20C\internal\low_off_in.wav
+VS_INSIDE_COAST_ENGINE_3=JCJModding\F20C\internal\mid_off_in.wav
+VS_INSIDE_COAST_ENGINE_4=JCJModding\F20C\internal\high_off_in.wav
+VS_INSIDE_COAST_ENGINE_5=JCJModding\F20C\internal\max_off_in.wav
+
+VS_INSIDE_POWER_ENGINE_1=JCJModding\F20C\internal\idle_in.wav
+VS_INSIDE_POWER_ENGINE_2=JCJModding\F20C\internal\low_on_in.wav
+VS_INSIDE_POWER_ENGINE_3=JCJModding\F20C\internal\mid_on_in.wav
+VS_INSIDE_POWER_ENGINE_4=JCJModding\F20C\internal\high_on_in.wav
+VS_INSIDE_POWER_ENGINE_5=JCJModding\F20C\internal\max_on_in.wav
+
+VS_INSIDE_ENGINE_STARTING=JCJModding\F20C\internal\starter_in.wav
+
+// ENGINE SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_COAST_ENGINE_1=JCJModding\F20C\external\idle_ex.wav
+VS_OUTSIDE_COAST_ENGINE_2=JCJModding\F20C\external\low_ex.wav
+VS_OUTSIDE_COAST_ENGINE_3=JCJModding\F20C\external\mid_off_ex.wav
+VS_OUTSIDE_COAST_ENGINE_4=JCJModding\F20C\external\high_off_ex.wav
+
+VS_OUTSIDE_POWER_ENGINE_1=JCJModding\F20C\external\idle_ex.wav
+VS_OUTSIDE_POWER_ENGINE_2=JCJModding\F20C\external\low_ex.wav
+VS_OUTSIDE_POWER_ENGINE_3=JCJModding\F20C\external\mid_on_ex.wav
+VS_OUTSIDE_POWER_ENGINE_4=JCJModding\F20C\external\high_on_ex.wav
+
+VS_OUTSIDE_ENGINE_STARTING=JCJModding\F20C\external\starter_ex.wav
+
+// BACKFIRE & SHIFT SOUNDS (INSIDE)
+
+VS_INSIDE_SHIFT_UP_1=JCJModding\F20C\shift\shiftup_in.wav
+VS_INSIDE_SHIFT_UP_2=JCJModding\F20C\shift\shiftup_in.wav
+VS_INSIDE_SHIFT_UP_3=JCJModding\F20C\shift\shiftup_in.wav
+VS_INSIDE_SHIFT_DOWN_1=JCJModding\F20C\shift\shiftdown_in.wav
+VS_INSIDE_SHIFT_DOWN_2=JCJModding\F20C\shift\shiftdown_in.wav
+VS_INSIDE_SHIFT_DOWN_3=JCJModding\F20C\shift\shiftdown_in.wav
+
+VS_INSIDE_BACKFIRE_1=JCJModding\F20C\shift\backfire_in_1.wav
+VS_INSIDE_BACKFIRE_2=JCJModding\F20C\shift\backfire_in_2.wav
+VS_INSIDE_BACKFIRE_3=JCJModding\F20C\shift\backfire_in_3.wav
+
+
+// BACKFIRE & SHIFT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SHIFT_UP_1=Rhez\gear1_shiftup_ex.wav
+VS_OUTSIDE_SHIFT_UP_2=Rhez\gear2_shiftup_ex.wav
+VS_OUTSIDE_SHIFT_UP_3=Rhez\gear3_shiftup_ex.wav
+VS_OUTSIDE_SHIFT_DOWN_1=Rhez\gear1_shiftdown_ex.wav
+VS_OUTSIDE_SHIFT_DOWN_2=Rhez\gear1_shiftdown_ex.wav
+VS_OUTSIDE_SHIFT_DOWN_3=Rhez\gear2_shiftdown_ex.wav
+
+VS_OUTSIDE_BACKFIRE_1=Rhez\BF1_ex.wav
+VS_OUTSIDE_BACKFIRE_2=Rhez\BF2_ex.wav
+VS_OUTSIDE_BACKFIRE_3=Rhez\BF3_ex.wav
+
+// ROAD SURFACE SOUNDS  (INSIDE)
+
+VS_INSIDE_ROADNOISE_DRY=JCJModding\F20C\tire\roadroll_dry_in.wav
+VS_INSIDE_ROADNOISE_WET=TMTires\roadroll_in.wav
+VS_INSIDE_ROADNOISE_GRASS=JCJModding\F20C\tire\grass_in.wav
+VS_INSIDE_ROADNOISE_DIRT=TMTires\gravelroll_in.wav
+VS_INSIDE_ROADNOISE_GRAVEL=JCJModding\F20C\tire\gravelroll_in.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIP=JCJModding\F20C\tire\rumble_in.wav
+
+// ROAD SURFACE SOUNDS  (OUTSIDE)
+
+VS_OUTSIDE_ROADNOISE_DRY=JCJModding\F20C\tire\roadroll_ex.wav
+VS_OUTSIDE_ROADNOISE_WET=TMTires\roadroll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRASS=TMTires\grassroll_ex.wav
+VS_OUTSIDE_ROADNOISE_DIRT=TMTires\gravelroll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRAVEL=TMTires\gravelroll_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIP=Secondary\rumble_ex.wav
+
+// SKID SOUNDS (INSIDE)
+
+VS_INSIDE_TIRE_SCRUB=JCJModding\F20C\tire\scrub_dry_in.wav
+VS_INSIDE_SKID_DRY=JCJModding\F20C\tire\skid_dry_in.wav
+VS_INSIDE_SKID_WET=TMTires\skid2_dry_in.wav
+VS_INSIDE_SKID_GRASS=TMTires\grassskid_in.wav
+VS_INSIDE_SKID_DIRT=TMTires\gravelskid_in.wav
+VS_INSIDE_SKID_GRAVEL=TMTires\gravelskid_in.wav
+
+// SKID SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_TIRE_SCRUB=JCJModding\F20C\tire\scrub_dry_ex.wav
+VS_OUTSIDE_SKID_DRY=JCJModding\F20C\tire\skid_dry_ex.wav
+VS_OUTSIDE_SKID_WET=TMTires\skid2_dry_ex.wav
+VS_OUTSIDE_SKID_GRASS=TMTires\grassskid_ex.wav
+VS_OUTSIDE_SKID_DIRT=TMTires\gravelskid_ex.wav
+VS_OUTSIDE_SKID_GRAVEL=TMTires\gravelskid_ex.wav
+
+// CONTACT SOUNDS  (INSIDE)
+
+VS_INSIDE_SCRAPING=secondary\scrape_barrier_in.wav
+VS_INSIDE_HIT_WALL_1=secondary\hit1_wall.wav
+VS_INSIDE_HIT_WALL_2=secondary\hit2_wall.wav
+VS_INSIDE_HIT_WALL_3=secondary\hit3_wall.wav
+VS_INSIDE_HIT_WALL_4=secondary\hit4_wall.wav
+VS_INSIDE_HIT_WALL_5=secondary\hit5_wall.wav
+
+VS_INSIDE_HIT_OTHERCAR_1=secondary\hit1_vehicle.wav
+VS_INSIDE_HIT_OTHERCAR_2=secondary\hit2_vehicle.wav
+VS_INSIDE_HIT_OTHERCAR_3=secondary\hit3_vehicle.wav
+VS_INSIDE_HIT_OTHERCAR_4=secondary\hit4_vehicle.wav
+VS_INSIDE_HIT_OTHERCAR_5=secondary\hit5_vehicle.wav
+
+VS_INSIDE_HIT_CONE=secondary\conehit.wav
+
+// CONTACT SOUNDS  (OUTSIDE)
+
+VS_OUTSIDE_SCRAPING=secondary\scrape_barrier_ex.wav
+
+VS_OUTSIDE_HIT_WALL_1=secondary\hit1_wall.wav
+VS_OUTSIDE_HIT_WALL_2=secondary\hit2_wall.wav
+VS_OUTSIDE_HIT_WALL_3=secondary\hit3_wall.wav
+VS_OUTSIDE_HIT_WALL_4=secondary\hit4_wall.wav
+VS_OUTSIDE_HIT_WALL_5=secondary\hit5_wall.wav
+VS_outSIDE_HIT_OTHERCAR_1=secondary\hit1_vehicle.wav
+VS_outSIDE_HIT_OTHERCAR_2=secondary\hit2_vehicle.wav
+VS_outSIDE_HIT_OTHERCAR_3=secondary\hit3_vehicle.wav
+VS_outSIDE_HIT_OTHERCAR_4=secondary\hit4_vehicle.wav
+VS_outSIDE_HIT_OTHERCAR_5=secondary\hit5_vehicle.wav
+
+VS_OUTSIDE_HIT_CONE=secondary\conehit.wav
+
+
+// AMBIENT SOUNDS (INSIDE)
+
+VS_INSIDE_SPEED_LIMITER_TOGGLE=secondary\limiter.wav
+VS_INSIDE_LAUNCH_CONTROL_TOGGLE=secondary\launch.wav
+VS_INSIDE_WIND_NOISE=JCJModding\F20C\tire\windrush_in.wav
+VS_INSIDE_ON_FIRE=secondary\fire_in.wav
+VS_INSIDE_HORN=JCJModding\F20C\tire\horn_in.wav
+VS_INSIDE_TRACTION_CONTROL=secondary\tc_in.wav
+VS_INSIDE_SEAT=Secondary\seat.wav 
+VS_INSIDE_MIRROR=Secondary\mirror.wav
+
+// AMBIENT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SPEED_LIMITER_TOGGLE=secondary\limiter.wav
+VS_OUTSIDE_LAUNCH_CONTROL_TOGGLE=secondary\launch.wav
+VS_OUTSIDE_WIND_NOISE=secondary\roadstones_ex.wav
+VS_OUTSIDE_ON_FIRE=secondary\fire_in.wav
+VS_OUTSIDE_HORN=JCJModding\F20C\tire\horn_ex.wav
+VS_OUTSIDE_TRACTION_CONTROL=secondary\tc_in.wav
+
+//-------------------------
+// ATTENUATION
+//-------------------------
+
+EngineRange=50.0
+EngineShape=1.00
+EngineAmbient=1.00
+
+ShiftRange=40.0
+ShiftShape=1.00
+ShiftAmbient=2.00
+
+OtherRange=50.0
+OtherShape=1.00
+OtherAmbient=1.20
+
+
+// ENGINE VOLUME MIX
+playerEngineVolumeMinimum=1.1
+playerEngineVolumeThrottleFraction=0.8
+playerEngineVolumeRevFraction=0.8
+
+non-playerEngineVolumeMinimum=0.6
+non-playerEngineVolumeThrottleFraction=0.4
+non-playerEngineVolumeRevFraction=0.4
+
+
+// ENGINE THROTTLE-POSITION MIX
+EngineLoadBlendInside=(0.25,0.7)   // power sound starts to blend in at 30% throttle, coast sound blends out at 70%
+EngineLoadBlendOutside=(0.3,0.7)  // power sound starts to blend in at 30% throttle, coast sound blends out at 70%
+
+
+// ENGINE REV-SAMPLE MIX
+// RPMs need to overlap properly from one sample to the next (maximum of two playing at once).
+// The first minimum RPM should be above zero but low enough to hear an engine stall.
+
+// Coast Inside
+EngRPMCoastInside=(0,    40.00,  3000.00,  1594.24)
+EngRPMCoastInside=(1,  1500.00,  4500.00,  4307.15)
+EngRPMCoastInside=(2,  3300.00,  8000.00,  5264.29)
+EngRPMCoastInside=(3,  5200.00,  10980.00,  7497.13)
+EngRPMCoastInside=(4,  10950.00,  11500.00,  7497.13)
+
+// Power Inside
+EngRPMPowerInside=(0,    40.00,  3000.00,  1594.24)
+EngRPMPowerInside=(1,  1500.00,  4500.00,  4307.15)
+EngRPMPowerInside=(2,  3300.00,  8200.00,  5264.29)
+EngRPMPowerInside=(3,  5500.00,  10980.00,  7497.13)
+EngRPMPowerInside=(4,  10950.00,  11500.00,  7497.13)
+
+// Coast Outside
+EngRPMCoastOutside=(0,    40.00,  2500.00,  1594.24)
+EngRPMCoastOutside=(1,  1500.00,  5300.00,  2072.36)
+EngRPMCoastOutside=(2,  3500.00,  8500.00,  5104.27)
+EngRPMCoastOutside=(3,  5500.00,  11500.00,  8135.71)
+
+// Power Outside
+EngRPMPowerOutside=(0,    40.00,  3000.00,  1594.24)
+EngRPMPowerOutside=(1,  1500.00,  5300.00,  2072.36)
+EngRPMPowerOutside=(2,  3500.00,  8500.00,  5104.27)
+EngRPMPowerOutside=(3,  5500.00,  11500.00,  8135.71)
+
+// TRANNY-SAMPLE MIX
+
+VS_INSIDE_COAST_TRANNY_1=JCJModding\F20C\transmission\trans_offlow.wav
+VS_INSIDE_COAST_TRANNY_2=JCJModding\F20C\transmission\trans_offhigh.wav
+VS_INSIDE_POWER_TRANNY_1=JCJModding\F20C\transmission\trans_onlow.wav
+VS_INSIDE_POWER_TRANNY_2=JCJModding\F20C\transmission\trans_onhigh.wav
+
+TrannyInitialRampRPM=2000.0 // ramp volume up to this driveshaft RPM because low pitches sound bad
+
+TrannyCoastBlendRPMInside=(1600.0, 5000.0) // blend range using driveshaft RPM
+TrannyCoast1RPMTorqueInside=(2736, 180.0)   // natural RPM at which sample was recorded, transmission torque (in Nm) for maximum volume
+TrannyCoast2RPMTorqueInside=(5332, 200.0)
+
+TrannyPowerBlendRPMInside=(1600.0, 8000.0)
+TrannyPower1RPMTorqueInside=(4294, 180.0)
+TrannyPower2RPMTorqueInside=(7998, 180.0)
+
+
+// BRAKE HISS 
+ 
+VS_INSIDE_BRAKES_LOW=Rhez\brakes_low_in.wav    // low-speed
+VS_INSIDE_BRAKES_HIGH=Rhez\brakes_high_in.wav  // high-speed 
+VS_OUTSIDE_BRAKES_LOW=Rhez\brakes_low_ex.wav   // low-speed 
+VS_OUTSIDE_BRAKES_HIGH=Rhez\brakes_high_ex.wav // high-speed
+ 
+// Note: all speeds are in meters/sec: 50.0 m/s = 112 mph = 180 kph 
+//
+// Lower BrakePressure numbers will cause the volume to ramp up faster with 
+// less applied pressure, and will be more steady at higher pressures.
+// Higher BrakePressure numbers will tend to make the volume more dependent
+// on applied pressure.
+//
+// Temperature effects on brake hiss volume are not implemented yet. 
+ 
+BrakeRampSpeed=3.0            // volume ramps up to this speed
+BrakeBlendSpeeds=(8.0, 23.0)  // blends between low- and high-speed brake hiss
+BrakeFadeSpeeds=(23.0, 42.0)  // fades out high-speed brake hiss between these speeds
+BrakePressure=0.20            // defines how brake pressure affects brake hiss volume
+
