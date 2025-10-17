@@ -1,0 +1,173 @@
+
+CUBEASF
+
+View=mainview
+{	Clear = False
+	Color = (0, 0, 0)
+	Size = (1.00, 1.00) Center = (0.5, 0.5)
+	FOV = (77.75, 62.50)
+	ClipPlanes = (0.50, 1500.00)
+	View = rearview
+	{
+		Clear = False
+		Color = (0, 0, 0)
+		Size = (0.200, 0.100) Center = (0.50, 0.01)
+		FOV = (62.5, 62.5)
+		ClipPlanes = (0.50, 150.00)
+	}
+}
+Instance=agm_screenmesh.gmt
+{
+	VisGroups=(32)
+	MeshFile=agm_screenmesh.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_backfire.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_backfire.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_cl5en.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_cl5en.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_cockpit.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_cockpit.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_driver.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_driver.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_driver2.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_driver2.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en1.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en1.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en1ds_lr.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en1ds_lr.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en1ds_rr.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en1ds_rr.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en2.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en2.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en2ds_lr.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en2ds_lr.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en2ds_rr.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en2ds_rr.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en3.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en3.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en3ds_lr.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en3ds_lr.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en3ds_rr.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en3ds_rr.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_en4.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_en4.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_encl5ds_lr.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_encl5ds_lr.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_encl5ds_rr.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_encl5ds_rr.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_helmet.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_helmet.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_helmetb.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_helmetb.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_hlampcover.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_hlampcover.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_lf_spind.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_lf_spind.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_lf_susp.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_lf_susp.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_lr_spind.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_lr_spind.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_nplate1.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_nplate1.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_nplate2.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_nplate2.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_rf_spind.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_rf_spind.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_rf_susp.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_rf_susp.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_rr_spind.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_rr_spind.gmt CollTarget=False HATTarget=False 
+}
+Instance=agmini_swheel.gmt
+{
+	VisGroups=(32)
+	MeshFile=agmini_swheel.gmt CollTarget=False HATTarget=False 
+}
+Instance=bri_blank.gmt
+{
+	VisGroups=(32)
+	MeshFile=bri_blank.gmt CollTarget=False HATTarget=False 
+}
