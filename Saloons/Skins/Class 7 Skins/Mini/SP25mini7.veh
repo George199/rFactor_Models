@@ -1,0 +1,27 @@
+HDVehicle=agmini\agmini.hdv			//
+Graphics=agmini\agmini.gen			//
+Spinner=agmini\agmini_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agmini\agmini.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agmini\agmini_cockpitinfo.ini		//
+Upgrades=agmini\agmini_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////
+DefaultLivery="SP25mini7.dds"		// Skin Name
+Number=SP25				// Number
+Driver="Kenny Perry"		// Driver Name
+Description="SP25 Kenny Perry"    	// Vehicle Description
+TeamHeadquarters="Spalding & District Autograss Club"	// Grasstrack Club
+
+Category="Class 7"			// Vehicle Class
+FullTeamName="Mini"			// Vehicle Body Style		
+PitGroup="Group7"			// Pit Starting Position
+Team="Mini"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

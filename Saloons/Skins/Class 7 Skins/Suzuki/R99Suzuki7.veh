@@ -1,0 +1,25 @@
+HDVehicle=agsuzuki\agsuzuki.hdv			//
+Graphics=agsuzuki\agsuzuki.gen			//
+Spinner=agsuzuki\agsuzuki_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agsuzuki\agsuzuki.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agsuzuki\agsuzuki_cockpitinfo.ini	//
+Upgrades=agsuzuki\agsuzuki_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="R99Suzuki7.dds"		// Skin Name
+Number=99				// Number
+Driver="Anthony Lee"			// Driver Name
+Description="R99 Anthony Lee"	     	// Vehicle Description
+TeamHeadquarters="Radford"              // Grasstrack Club
+
+Category="Class 7"			// Vehicle Class
+FullTeamName="Suzuki SC100"		// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Suzuki"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="Y207miniP7.dds"		// Skin Name
+Number=207				// Number
+Driver="Phil Wilson"			// Driver Name
+Description="Y207 Phil Wilson"        		// Vehicle Description
+TeamHeadquarters="York"			// Grasstrack Club
+
+Category="Class 7"			// Vehicle Class
+FullTeamName="Mini Pickup"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="Mini Pickup"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

@@ -1,0 +1,25 @@
+HDVehicle=agsuzuki\agsuzuki.hdv			//
+Graphics=agsuzuki\agsuzuki.gen			//
+Spinner=agsuzuki\agsuzuki_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agsuzuki\agsuzuki.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agsuzuki\agsuzuki_cockpitinfo.ini	//
+Upgrades=agsuzuki\agsuzuki_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="SS7Suzuki7.dds"		// Skin Name
+Number=7				// Number
+Driver="John Gay"			// Driver Name
+Description="SS7 John Gay"	     	// Vehicle Description
+TeamHeadquarters="South Somerset"        // Grasstrack Club
+
+Category="Class 7"			// Vehicle Class
+FullTeamName="Suzuki SC100"		// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Suzuki"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

@@ -1,0 +1,173 @@
+SearchPath=<VEHDIR>
+SearchPath=<VEHDIR>\AG_Seicento\
+
+MASFile=AG_Wheels.mas
+MASFile=AG_COMMON.mas
+MASFile=AG_Seicento\AG_Seicento.mas
+MASFile=cmaps.mas
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+//------------------------------------MAX CAR SETTINGS---------------------------------------------
+<MAX> MeshFile=agseic_body.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+//------------------------------------HIGH CAR SETTINGS--------------------------------------------
+<HIGH> MeshFile=agseic_body.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+//------------------------------------MED CAR SETTINGS---------------------------------------------
+<MED> MeshFile=agseic_body.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+//------------------------------------LOW CAR SETTINGS---------------------------------------------
+<LOW> MeshFile=agseic_body.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+//------------------------------------SHADOW AND COLLISION OBJECTS---------------------------------
+MeshFile=agseic_shadow.gmt CollTarget=False HATTarget=False ShadowObject=(Dynamic, Solid, 256, 256, AGSEI_SHADOW.DDS) LODIn=(0.0) LODOut=(250.0)
+MeshFile=agseic_coll.gmt Render=False CollTarget=True HATTarget=False LODIn=(0.0) LODOut=(500.0)
+
+Actor=VEHICLE
+
+<STARTUPGRADES>
+
+//####################--COCKPIT--####################
+
+Instance=COCKPIT<UPNUMBER>
+{
+	Moveable=True
+	MeshFile=Seicento_Cockpit1.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True 
+	MeshFile=Seicento_Cockpit2.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True 
+	MeshFile=<MIRROR> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=False
+	MeshFile=<MESH> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=False
+	MeshFile=<TACHO> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+	MeshFile=<GI> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+}
+
+Instance=WHEEL
+  {
+    Moveable=True
+    MeshLODPosByInstance=True
+    MeshFile=agseic_swheel.gmt CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0.0) LODOut=(0.70) ShadowReceiver=True
+  }
+
+Instance=LFTIRE<UPNUMBER>
+{
+	Moveable=True
+        MeshFile=<LFTIREHIGH> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+	MeshFile=lfbdisc_seic.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0) LODOut=(500) ShadowReceiver=True
+}
+
+Instance=RFTIRE<UPNUMBER>
+{
+	Moveable=True
+	MeshFile=<RFTIREHIGH> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+	MeshFile=rfbdisc_seic.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0) LODOut=(500) ShadowReceiver=True
+}
+
+Instance=LRTIRE<UPNUMBER>
+{
+	Moveable=True
+	MeshFile=<LRTIREHIGH> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+	MeshFile=lrbdisc_seic.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0) LODOut=(500) ShadowReceiver=True
+}
+
+Instance=RRTIRE<UPNUMBER>
+{
+	Moveable=True
+	MeshFile=<RRTIREHIGH> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+	MeshFile=rrbdisc_seic.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0) LODOut=(500) ShadowReceiver=True
+}
+
+Instance=LFSpindle     //calipers
+{
+Moveable=True
+MeshFile=agseic_LF_spind.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.0) ShadowReceiver=True
+}
+
+Instance=RFSpindle     //calipers
+{
+Moveable=True
+MeshFile=agseic_RF_spind.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.0) ShadowReceiver=True
+}
+
+Instance=LRSpindle     //calipers
+{
+Moveable=True
+MeshFile=agseic_LR_spind.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.0) ShadowReceiver=True
+ }
+
+Instance=RRSpindle     //calipers
+{
+Moveable=True
+MeshFile=agseic_RR_spind.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(30.0) ShadowReceiver=True
+}
+
+Instance=DEBRIS1  // LF Suspension
+{
+Moveable=True
+MeshFile=agseic_LF_Susp.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True
+}
+
+Instance=DEBRIS2  // RF Suspension
+{
+Moveable=True
+MeshFile=agseic_RF_Susp.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True
+}
+
+Instance=DEBRIS3<UPNUMBER>  // LR Suspension
+{
+Moveable=True
+MeshFile=<DEBRIS3> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0) ShadowReceiver=True
+}
+
+Instance=DEBRIS4<UPNUMBER>  // LR Suspension
+{
+Moveable=True
+MeshFile=<DEBRIS4> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0) ShadowReceiver=True
+}
+
+
+//####################--Brake Lights--####################
+
+Instance=BLIGHTDS
+  {
+    Moveable=True
+    MeshFile=blglo_DS.gmt Render=False CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0) ShadowReceiver=True
+  }
+
+Instance=BLIGHTPS
+  {
+    Moveable=True
+    MeshFile=blglo_PS.gmt Render=True CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0) ShadowReceiver=True
+  }
+
+ Instance=HELMET<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<HELMET> CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(10.0) ShadowReceiver=True
+    MeshFile=<HELMETB> CollTarget=False HATTarget=False LODIn=(10.0) LODOut=(200.0) ShadowReceiver=True
+   }
+
+
+Instance=Driver
+  {
+    Moveable=True
+    MeshFile=agseic_driver.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True
+    MeshFile=agseic_driver2.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(20.0) ShadowReceiver=True
+ }   
+
+Instance=NPLATE<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<NPLATE> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 16, 16) LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+}
+
+Instance=ENGINE<UPNUMBER>
+{
+    Moveable=True
+    MeshFile=<ENGINE> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+}
+  Instance=BACKFIRE
+  {
+    Moveable=True
+    MeshFile=<BACKFIRE> CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) ShadowReceiver=False
+  }
+
+<STOPUPGRADES>
+
+}

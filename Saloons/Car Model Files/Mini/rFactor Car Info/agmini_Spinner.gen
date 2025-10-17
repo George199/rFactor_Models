@@ -1,0 +1,128 @@
+SearchPath=<VEHDIR>
+SearchPath=<VEHDIR>\agmini\
+
+MASFile=AG_Wheels.mas
+MASFile=AG_COMMON.mas
+MASFile=agmini\agmini.mas
+MASFile=cmaps.mas
+
+ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=agmini_body.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(Dynamic, Solid, 1024, 1024, AGSEI_SHADOW.DDS) Reflect=True
+Actor=VEHICLE
+
+<STARTUPGRADES>
+
+Instance=LFTIRE<UPNUMBER>
+{
+Moveable=True
+MeshFile=<LFTIREHIGH> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True Reflect=True
+MeshFile=lfbdisc_mini.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+}
+
+Instance=RFTIRE<UPNUMBER>
+{
+Moveable=True
+MeshFile=<RFTIREHIGH> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True Reflect=True
+MeshFile=rfbdisc_mini.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+}
+
+Instance=LRTIRE<UPNUMBER>
+{
+Moveable=True
+MeshFile=<LRTIREHIGH> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True Reflect=True
+MeshFile=lrbdisc_mini.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+}
+
+Instance=RRTIRE<UPNUMBER>
+{
+Moveable=True
+MeshFile=<RRTIREHIGH> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32)  LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True Reflect=True
+MeshFile=rrbdisc_mini.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+}
+
+Instance=LFSpindle     //calipers
+{
+Moveable=True
+MeshFile=agmini_LF_spind.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(300.0) ShadowReceiver=True
+}
+
+Instance=RFSpindle     //calipers
+{
+Moveable=True
+MeshFile=agmini_RF_spind.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(300.0) ShadowReceiver=True
+}
+
+Instance=LRSpindle     //calipers
+{
+Moveable=True
+MeshFile=agmini_LR_spind.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(300.0) ShadowReceiver=True
+ }
+
+Instance=RRSpindle     //calipers
+{
+Moveable=True
+MeshFile=agmini_RR_spind.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(300.0) ShadowReceiver=True
+}
+
+Instance=DEBRIS1  // LF Suspension
+{
+Moveable=True
+MeshFile=agmini_LF_Susp.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True Reflect=True
+}
+
+Instance=DEBRIS2  // RF Suspension
+{
+Moveable=True
+MeshFile=agmini_RF_Susp.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True Reflect=True
+}
+
+Instance=DEBRIS3<UPNUMBER>  // LR Suspension
+{
+Moveable=True
+MeshFile=<DEBRIS3> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0) ShadowReceiver=True
+}
+
+Instance=DEBRIS4<UPNUMBER>  // LR Suspension
+{
+Moveable=True
+MeshFile=<DEBRIS4> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(100.0) ShadowReceiver=True
+}
+
+Instance=HCOVER<UPNUMBER>
+{
+Moveable=True
+MeshFile=<HCOVER> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowReceiver=True
+}
+
+Instance=NPLATE<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<NPLATE> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32) LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True Reflect=True
+}
+
+Instance=ENGINE<UPNUMBER>
+{
+    Moveable=True
+    MeshFile=<ENGINE> CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 32, 32) LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True Reflect=True
+}
+
+ Instance=HELMET<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<HELMET> CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(10.0) ShadowReceiver=True
+   }
+
+Instance=Driver
+  {
+    Moveable=True
+    MeshFile=agmini_driver.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True
+    MeshFile=agmini_driver2.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(200.0) ShadowReceiver=True
+ }   
+
+<STOPUPGRADES>
+
+}

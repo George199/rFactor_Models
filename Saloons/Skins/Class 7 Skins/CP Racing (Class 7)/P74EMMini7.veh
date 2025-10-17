@@ -1,0 +1,25 @@
+HDVehicle=agmini\agmini.hdv			//
+Graphics=agmini\agmini.gen			//
+Spinner=agmini\agmini_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agmini\agmini.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agmini\agmini_cockpitinfo.ini		//
+Upgrades=agmini\agmini_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="P74EMMini7.dds"		// Skin Name
+Number=P74EM				// Number
+Driver="Josh Tickle"			// Driver Name
+Description="P74EM Josh Tickle"        		// Vehicle Description
+TeamHeadquarters="Pennine Autograss Club"			// Grasstrack Club
+
+Category="CPRL (Class 7)"			// Vehicle Class
+FullTeamName="CPRL (Class 7)"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="CPRL (Class 7)"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

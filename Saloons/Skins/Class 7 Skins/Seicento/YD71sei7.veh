@@ -1,0 +1,25 @@
+HDVehicle=AG_Seicento\AG_Seicento.hdv			//
+Graphics=AG_Seicento\AG_Seicento.gen			//
+Spinner=AG_Seicento\AG_Seicento_spinner.gen		//
+GenString= 						//                                        
+Sounds=ag.sfx  						// DO NOT CHANGE                
+Cameras=AG_Seicento\AG_Seicento.cam 			//                
+HeadPhysics=AG_headphysics.ini				//        
+Cockpit=AG_Seicento\AG_Seicento_cockpitinfo.ini		//
+Upgrades=AG_Seicento\AG_Seicento_Upgrades.ini		//
+//////////////////////////////////////////////////////////
+
+DefaultLivery="YD71sei7"	// Skin Name
+Number=71				// Number
+Driver="Graham Blackburn"			// Driver Name
+Description="YD71 Graham Blackburn"        		// Vehicle Description
+TeamHeadquarters="Yorkshire Dales"		// Grasstrack Club
+
+Category="Class 7"			// Vehicle Class
+FullTeamName="Fiat Seicento"		// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Seicento"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

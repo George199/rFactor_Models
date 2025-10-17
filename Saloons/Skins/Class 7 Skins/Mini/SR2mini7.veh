@@ -1,0 +1,25 @@
+HDVehicle=agmini\agmini.hdv			//
+Graphics=agmini\agmini.gen			//
+Spinner=agmini\agmini_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agmini\agmini.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agmini\agmini_cockpitinfo.ini		//
+Upgrades=agmini\agmini_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="SR2mini7.dds"		// Skin Name
+Number=2				// Number
+Driver="Tommy Law"			// Driver Name
+Description="SR2 Tommy Law"        		// Vehicle Description
+TeamHeadquarters="Shropshire and Telford"			// Grasstrack Club
+
+Category="Class 7"			// Vehicle Class
+FullTeamName="Mini"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Mini"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

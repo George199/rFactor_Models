@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="SP81miniP7.dds"	// Skin Name
+Number=SP81				// Number
+Driver="Harry Clayton"			// Driver Name
+Description="SP81 Harry Clayton"        	// Vehicle Description
+TeamHeadquarters="Spalding Autograss Club"			// Grasstrack Club
+
+Category="CPRL (Class 7)"			// Vehicle Class
+FullTeamName="CPRL (Class 7)"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="CPRL (Class 7)"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

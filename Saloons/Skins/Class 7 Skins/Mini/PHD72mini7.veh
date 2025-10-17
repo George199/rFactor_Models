@@ -1,0 +1,25 @@
+HDVehicle=agmini\agmini.hdv			//
+Graphics=agmini\agmini.gen			//
+Spinner=agmini\agmini_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agmini\agmini.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agmini\agmini_cockpitinfo.ini		//
+Upgrades=agmini\agmini_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="PHD72mini7.dds"		// Skin Name
+Number=72				// Number
+Driver="Jake Roberts"			// Driver Name
+Description="PHD72 Jake Roberts"        		// Vehicle Description
+TeamHeadquarters="Pembroke Have & District"			// Grasstrack Club
+
+Category="Class 7"			// Vehicle Class
+FullTeamName="Mini"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Mini"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+
