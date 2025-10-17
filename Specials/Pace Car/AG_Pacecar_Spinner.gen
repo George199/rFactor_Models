@@ -1,0 +1,40 @@
+SearchPath=<VEHDIR>
+SearchPath=<VEHDIR>/AGPaceCar/
+SearchPath=<VEHDIR>/AGPaceCar/Quad
+
+//MASFile=AGPaceCar/AG_Pacecar.mas
+MASFile=cmaps.mas
+
+ReflectPlane=(0.0, -1.0, 0.0, 0.0)
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=AG_PC_Body.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(Dynamic, Solid, 1024, 1024) Reflect=True
+Actor=VEHICLE
+
+Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=AG_PC_LF.gmt CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0.00) LODOut=(10.0) ShadowReceiver=True
+  }
+
+  Instance=RFTIRE
+  {
+    Moveable=True
+    MeshFile=AG_PC_RF.gmt CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0.00) LODOut=(10.0) ShadowReceiver=True
+  }
+
+  Instance=LRTIRE
+  {
+    Moveable=True
+    MeshFile=AG_PC_LR.gmt CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0.00) LODOut=(10.0) ShadowReceiver=True
+  }
+
+  Instance=RRTIRE
+  {
+    Moveable=True
+    MeshFile=AG_PC_RR.gmt CollTarget=False HATTarget=False ShadowCaster=False LODIn=(0.00) LODOut=(10.0) ShadowReceiver=True
+  }
+
+}
