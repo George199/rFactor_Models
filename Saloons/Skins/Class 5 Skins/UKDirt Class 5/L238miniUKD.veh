@@ -1,0 +1,25 @@
+HDVehicle=agmini\agmini_CL5.hdv			//
+Graphics=agmini\agmini.gen			//
+Spinner=agmini\agmini_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag_CL5.sfx  					// DO NOT CHANGE                
+Cameras=agmini\agmini.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agmini\agmini_cockpitinfo.ini		//
+Upgrades=agmini\agmini5_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="L238miniUKD.dds"		// Skin Name
+Number=238				// Number
+Driver="Kane Morgan"			// Driver Name
+Description="L238 Kane Morgan"        		// Vehicle Description
+TeamHeadquarters="Leicester"			// Grasstrack Club
+
+Category="Class 5"			// Vehicle Class
+FullTeamName="UKDirt Class 5"			// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="UKDirt Class 5"        			// Skins Folder
+Classes="Grasstrack_5"			// RFM Include Vehicles
+
+
+

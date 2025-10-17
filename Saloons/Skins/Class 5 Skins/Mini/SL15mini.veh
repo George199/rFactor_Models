@@ -1,0 +1,26 @@
+HDVehicle=agmini\agmini_CL5.hdv			//
+Graphics=agmini\agmini.gen			//
+Spinner=agmini\agmini_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag_CL5.sfx  					// DO NOT CHANGE                
+Cameras=agmini\agmini.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agmini\agmini_cockpitinfo.ini		//
+Upgrades=agmini\agmini5_Upgrades.ini		//
+
+
+//////////////////////////////////////////////////
+DefaultLivery="SL15mini.dds"		// Skin Name
+Number=SL15				// Number
+Driver="Steve Graham"		// Driver Name
+Description="SL15 Steve Graham"    	// Vehicle Description
+TeamHeadquarters="Solway Autograss Club"	// Grasstrack Club
+
+Category="Class 5"			// Vehicle Class
+FullTeamName="Mini"			// Vehicle Body Style		
+PitGroup="Group7"			// Pit Starting Position
+Team="Mini"        			// Skins Folder
+Classes="Grasstrack_5"			// RFM Include Vehicles
+
+
+

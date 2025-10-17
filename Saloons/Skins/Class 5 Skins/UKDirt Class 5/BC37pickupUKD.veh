@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP_CL5.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag_CL5.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP5_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="BC37pickupUKD.dds"		// Skin Name
+Number=37				// Number
+Driver="Nathan Harwood"			// Driver Name
+Description="BC37 Nathan Harwood"        		// Vehicle Description
+TeamHeadquarters="Border Counties"			// Grasstrack Club
+
+Category="Class 5"			// Vehicle Class
+FullTeamName="UKDirt Class 5"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="UKDirt Class 5"        			// Skins Folder
+Classes="Grasstrack_5"			// RFM Include Vehicles
+
+
+

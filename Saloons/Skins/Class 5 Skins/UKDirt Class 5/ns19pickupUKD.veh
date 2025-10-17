@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP_CL5.hdv			
+Graphics=agminiP\agminiP.gen			
+Spinner=agminiP\agminiP_spinner.gen		
+GenString= 					                                        
+Sounds=ag_CL5.sfx  				               
+Cameras=agminiP\agminiP.cam 			                
+HeadPhysics=AG_headphysics.ini			        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		
+Upgrades=agminiP\agminiP5_Upgrades.ini	
+
+
+DefaultLivery="ns19pickupUKD.dds"	
+Number=19				
+Driver="Will Henry"			
+Description="NS19 Will Henry"        	
+TeamHeadquarters="North Shropshire"			
+
+Category="Class 5"			
+FullTeamName="UKDirt Class 5"				
+PitGroup="Group2"			
+Team="UKDirt Class 5"        			
+Classes="Grasstrack_5"			
+
+
+

@@ -1,0 +1,25 @@
+HDVehicle=AG_cinq\AG_cinq.hdv			//
+Graphics=AG_cinq\AG_cinq.gen			//
+Spinner=AG_cinq\AG_cinq_spinner.gen		//
+GenString= 						//                                        
+Sounds=ag.sfx  						// DO NOT CHANGE                
+Cameras=AG_cinq\AG_cinq.cam 			//                
+HeadPhysics=AG_headphysics.ini				//        
+Cockpit=AG_cinq\AG_cinq_cockpitinfo.ini		//
+Upgrades=AG_cinq\AG_cinq_Upgrades.ini		//
+//////////////////////////////////////////////////////////
+
+DefaultLivery="S20Dcinq7"	// Skin Name
+Number=20				// Number
+Driver="Steve Smith"			// Driver Name
+Description="S20D Steve Smith"        		// Vehicle Description
+TeamHeadquarters="Stroud and District"		// Grasstrack Club
+
+Category="Class 7"			// Vehicle Class
+FullTeamName="Fiat Cinquecento"		// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="Cinquecento"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="A236MiniP7.dds"		// Skin Name
+Number=A236				// Number
+Driver="Luke Warren"			// Driver Name
+Description="A236 Luke Warren"        		// Vehicle Description
+TeamHeadquarters="Athleston Autogtrass Club"			// Grasstrack Club
+
+Category="CPRL (Class 7)"			// Vehicle Class
+FullTeamName="CPRL (Class 7)"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="CPRL (Class 7)"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP_CL5.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag_CL5.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP5_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="CPR_N555P.dds"		// Skin Name
+Number=N555				// Number
+Driver="James Kinton"			// Driver Name
+Description="N555 James Kinton"        		// Vehicle Description
+TeamHeadquarters="Nottingham Autograss Club"			// Grasstrack Club
+
+Category="CPRL (Class 5)"			// Vehicle Class
+FullTeamName="CPRL (Class 5)"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="CPRL (Class 5)"        			// Skins Folder
+Classes="Grasstrack_5"			// RFM Include Vehicles
+
+
+

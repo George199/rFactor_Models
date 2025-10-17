@@ -1,0 +1,25 @@
+HDVehicle=agsuzuki\agsuzuki.hdv			//
+Graphics=agsuzuki\agsuzuki.gen			//
+Spinner=agsuzuki\agsuzuki_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agsuzuki\agsuzuki.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agsuzuki\agsuzuki_cockpitinfo.ini	//
+Upgrades=agsuzuki\agsuzuki_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="CS263Suzuki7.dds"		// Skin Name
+Number=CS263				// Number
+Driver="Sean Rankin"			// Driver Name
+Description="CS263 Sean Rankin (Suz)"	     	// Vehicle Description
+TeamHeadquarters="Central Scotland Autograss Club"        // Grasstrack Club
+
+Category="CPRL (Class 7)"			// Vehicle Class
+FullTeamName="CPRL (Class 7)"		// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="CPRL (Class 7)"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

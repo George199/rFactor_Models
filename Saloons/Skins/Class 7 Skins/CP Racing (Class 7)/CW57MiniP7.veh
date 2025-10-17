@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="CW57MiniP7.dds"		// Skin Name
+Number=CW57				// Number
+Driver="Aaron McGrath"			// Driver Name
+Description="CW57 Aaron McGrath"        		// Vehicle Description
+TeamHeadquarters="Carlow Autogtrass Club"			// Grasstrack Club
+
+Category="CPRL (Class 7)"			// Vehicle Class
+FullTeamName="CPRL (Class 7)"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="CPRL (Class 7)"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

@@ -1,0 +1,25 @@
+HDVehicle=AG_Seicento\AG_Seicento.hdv			//
+Graphics=AG_Seicento\AG_Seicento.gen			//
+Spinner=AG_Seicento\AG_Seicento_spinner.gen		//
+GenString= 						//                                        
+Sounds=ag.sfx  						// DO NOT CHANGE                
+Cameras=AG_Seicento\AG_Seicento.cam 			//                
+HeadPhysics=AG_headphysics.ini				//        
+Cockpit=AG_Seicento\AG_Seicento_cockpitinfo.ini		//
+Upgrades=AG_Seicento\AG_Seicento_Upgrades.ini		//
+//////////////////////////////////////////////////////////
+
+DefaultLivery="CPR_CW57Seicento7.dds"	// Skin Name
+Number=CW57				// Number
+Driver="Aaron McGrath"			// Driver Name
+Description="CW57 Aaron McGrath"        		// Vehicle Description
+TeamHeadquarters=""		// Grasstrack Club
+
+Category="CPRL (Class 7)"			// Vehicle Class
+FullTeamName="CPRL (Class 7)"		// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="CPRL (Class 7)"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

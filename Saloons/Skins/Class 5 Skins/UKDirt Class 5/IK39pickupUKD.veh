@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP_CL5.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag_CL5.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP5_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="IK39pickupUKD.dds"		// Skin Name
+Number=39				// Number
+Driver="LeeK"			// Driver Name
+Description="IK39 LeeK"        		// Vehicle Description
+TeamHeadquarters="Invicta Kent"			// Grasstrack Club
+
+Category="Class 5"			// Vehicle Class
+FullTeamName="UKDirt Class 5"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="UKDirt Class 5"        			// Skins Folder
+Classes="Grasstrack_5"			// RFM Include Vehicles
+
+
+

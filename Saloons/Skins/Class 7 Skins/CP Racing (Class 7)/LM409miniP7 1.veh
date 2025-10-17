@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="LM409miniP7 1.dds"	// Skin Name
+Number=LM409				// Number
+Driver="Chris Wilks"			// Driver Name
+Description="LM409 Chris Wilks"        	// Vehicle Description
+TeamHeadquarters="Leewood Autograss Club"			// Grasstrack Club
+
+Category="CPRL (Class 7)"			// Vehicle Class
+FullTeamName="CPRL (Class 7)"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="CPRL (Class 7)"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

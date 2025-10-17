@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP_CL5.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag_CL5.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP5_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="CPR_CS633P.dds"		// Skin Name
+Number=CS663				// Number
+Driver="Shane Graham"			// Driver Name
+Description="CS663 Shane Graham"        		// Vehicle Description
+TeamHeadquarters="Central Scotland Autograss Club"			// Grasstrack Club
+
+Category="CPRL (Class 5)"			// Vehicle Class
+FullTeamName="CPRL (Class 5)"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="CPRL (Class 5)"        			// Skins Folder
+Classes="Grasstrack_5"			// RFM Include Vehicles
+
+
+

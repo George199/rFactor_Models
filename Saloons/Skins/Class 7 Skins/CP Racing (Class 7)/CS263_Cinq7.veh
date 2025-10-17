@@ -1,0 +1,25 @@
+HDVehicle=AG_cinq\AG_cinq.hdv			//
+Graphics=AG_cinq\AG_cinq.gen			//
+Spinner=AG_cinq\AG_cinq_spinner.gen		//
+GenString= 						//                                        
+Sounds=ag.sfx  						// DO NOT CHANGE                
+Cameras=AG_cinq\AG_cinq.cam 			//                
+HeadPhysics=AG_headphysics.ini				//        
+Cockpit=AG_cinq\AG_cinq_cockpitinfo.ini		//
+Upgrades=AG_cinq\AG_cinq_Upgrades.ini		//
+//////////////////////////////////////////////////////////
+
+DefaultLivery="CS263_Cinq7"	// Skin Name
+Number=CS263				// Number
+Driver="Sean Rankin"			// Driver Name
+Description="CS263 Sean Rankin"        		// Vehicle Description
+TeamHeadquarters="Central Scotland Autograss Club"		// Grasstrack Club
+
+Category="CPRL (Class 7)"			// Vehicle Class
+FullTeamName="CPRL (Class 7)"		// Vehicle Body Style		
+PitGroup="Group6"			// Pit Starting Position
+Team="CPRL (Class 7)"        			// Skins Folder
+Classes="Grasstrack7"			// RFM Include Vehicles
+
+
+

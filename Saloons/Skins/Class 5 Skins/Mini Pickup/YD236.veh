@@ -1,0 +1,25 @@
+HDVehicle=agminiP\agminiP_CL5.hdv			//
+Graphics=agminiP\agminiP.gen			//
+Spinner=agminiP\agminiP_spinner.gen		//
+GenString= 					//                                        
+Sounds=ag_CL5.sfx  					// DO NOT CHANGE                
+Cameras=agminiP\agminiP.cam 			//                
+HeadPhysics=AG_headphysics.ini			//        
+Cockpit=agminiP\agminiP_cockpitinfo.ini		//
+Upgrades=agminiP\agminiP5_Upgrades.ini		//
+//////////////////////////////////////////////////
+
+DefaultLivery="YD236.dds"	// Skin Name
+Number=236				// Number
+Driver="Dan Skinner"			// Driver Name
+Description="YD236 Dan Skinner"        	// Vehicle Description
+TeamHeadquarters="Yorkshire Dales"			// Grasstrack Club
+
+Category="Class 5"			// Vehicle Class
+FullTeamName="Mini Pickup"		// Vehicle Body Style		
+PitGroup="Group2"			// Pit Starting Position
+Team="Mini Pickup"        			// Skins Folder
+Classes="Grasstrack_5"			// RFM Include Vehicles
+
+
+
