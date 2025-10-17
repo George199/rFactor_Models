@@ -1,0 +1,504 @@
+CUBEASF
+
+//-------------------------------------------------------
+
+SearchPath=.
+SearchPath=Pennine
+SearchPath=Pennine\Pennine_Mid
+//SearchPath=Pennine\gmt
+//SearchPath=Pennine\tex
+
+
+
+//-------------------------------------------------------
+
+
+MASFile=Pennine.MAS
+MASFile=Penninemap.MAS
+MASFile=COMMONMAPS.MAS
+
+//-----------------------------------------------------
+
+View=mainview
+{
+  Clear=False
+  Color=(0, 0, 0)
+  Size=(1.00, 1.00) Center=(0.5, 0.5)
+  FOV=(77.75, 62.50)
+  ClipPlanes=(0.50, 1500.00)
+  View=rearview
+  {
+    Clear=False
+    Color=(0, 0, 0)
+    Size=(1024.00, 64.00) Center=(512.00, 32.00)
+    FOV=(62.5, 62.5)
+    ClipPlanes=(0.50, 150.00)
+  }
+}
+
+//-------------------------------------------------------
+
+GroupMethod=LinkSingle
+AmbientColor=(100, 109, 136)
+
+FogMode=LINEAR FogIn=(600.00) FogOut=(2000.00) FogDensity=(0.00) FogColor=(203, 214, 236)
+
+//-------------------------------------------------------
+
+Light=FDirect01
+{
+ Type=Directional Dir=(0.036640,-0.883504,-0.466987) Color=(255, 255, 255)
+}
+//--------------------------------------
+Instance=guard2
+{
+  MeshFile=guard2.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=woodpole12
+{
+  VisGroups=(32) 
+  MeshFile=woodpole12.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=smpole
+{
+  VisGroups=(32) 
+  MeshFile=smpole.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=smpole02
+{
+  VisGroups=(32) 
+  MeshFile=smpole02.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline01
+{
+  MeshFile=treeline01.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=trees1
+{
+  VisGroups=(32) 
+  MeshFile=trees1.gmt CollTarget=False HATTarget=False ShadowReceiver=True 
+}
+Instance=trees3
+{
+  VisGroups=(32) 
+  MeshFile=trees3.gmt CollTarget=False HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline02
+{
+  MeshFile=treeline02.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline03
+{
+  MeshFile=treeline03.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=trees4
+{
+  VisGroups=(32) 
+  MeshFile=trees4.gmt CollTarget=False HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline04
+{
+  MeshFile=treeline04.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline05
+{
+  MeshFile=treeline05.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline06
+{
+  MeshFile=treeline06.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline07
+{
+  MeshFile=treeline07.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline08
+{
+  MeshFile=treeline08.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=treeline09
+{
+  MeshFile=treeline09.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=trees5
+{
+  VisGroups=(32) 
+  MeshFile=trees5.gmt CollTarget=False HATTarget=False 
+}
+Instance=trees6
+{
+  VisGroups=(32) 
+  MeshFile=trees6.gmt CollTarget=False HATTarget=False ShadowReceiver=True 
+}
+Instance=blkintire02
+{
+  MeshFile=blkintire02.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=blkintire03
+{
+  MeshFile=blkintire03.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=blkintire04
+{
+  MeshFile=blkintire04.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=blkintire05
+{
+  MeshFile=blkintire05.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=blkintire06
+{
+  MeshFile=blkintire06.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=blkintire07
+{
+  MeshFile=blkintire07.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=trees7
+{
+  MeshFile=trees7.gmt CollTarget=False HATTarget=False 
+}
+Instance=wirerope1
+{
+  VisGroups=(32) 
+  MeshFile=wirerope1.gmt CollTarget=False HATTarget=False ShadowReceiver=True 
+}
+Instance=jcb
+{
+  VisGroups=(32) 
+  MeshFile=jcb.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=jcb01
+{
+  VisGroups=(32) 
+  MeshFile=jcb01.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=tractor6
+{
+  VisGroups=(32) 
+  MeshFile=tractor6.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=tractor07
+{
+  VisGroups=(32) 
+  MeshFile=tractor07.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=infield
+{
+  MeshFile=infield.gmt CollTarget=True HATTarget=True ShadowReceiver=True ShadowReceiver=True
+}
+Instance=outfield
+{
+  MeshFile=outfield.gmt CollTarget=True HATTarget=True ShadowReceiver=True ShadowReceiver=True
+}
+Instance=outfield2
+{
+  MeshFile=outfield2.gmt CollTarget=True HATTarget=True ShadowReceiver=True ShadowReceiver=True
+}
+Instance=outfield3
+{
+  MeshFile=outfield3.gmt CollTarget=True HATTarget=True ShadowReceiver=True ShadowReceiver=True
+}
+Instance=outfield4
+{
+  MeshFile=outfield4.gmt CollTarget=True HATTarget=True ShadowReceiver=True ShadowReceiver=True
+}
+Instance=outfield5
+{
+  MeshFile=outfield5.gmt CollTarget=True HATTarget=True ShadowReceiver=True ShadowReceiver=True
+}
+Instance=treeline10
+{
+  MeshFile=treeline10.gmt CollTarget=True HATTarget=False 
+}
+Instance=bush2
+{
+  MeshFile=bush2.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=bush3
+{
+  MeshFile=bush3.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=bush4
+{
+  MeshFile=bush4.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=bush01
+{
+  MeshFile=bush01.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=cars1
+{
+  VisGroups=(96) 
+  MeshFile=cars1.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=coach5
+{
+  VisGroups=(32) 
+  MeshFile=coach5.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=coach3
+{
+  VisGroups=(32) 
+  MeshFile=coach3.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=coach1
+{
+  VisGroups=(96) 
+  MeshFile=coach1.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=coach2
+{
+  VisGroups=(96) 
+  MeshFile=coach2.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=coach4
+{
+  VisGroups=(32) 
+  MeshFile=coach4.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=peeps5
+{
+  VisGroups=(96) 
+  MeshFile=peeps5.gmt CollTarget=False HATTarget=False 
+}
+Instance=smpole01
+{
+  MeshFile=smpole01.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=wirerope02
+{
+  MeshFile=wirerope02.gmt CollTarget=False HATTarget=False ShadowReceiver=True 
+}
+Instance=wirerope03
+{
+  MeshFile=wirerope03.gmt CollTarget=False HATTarget=False ShadowReceiver=True 
+}
+Instance=smpole03
+{
+  MeshFile=smpole03.gmt CollTarget=True HATTarget=False ShadowReceiver=True 
+}
+Instance=cone12
+{
+  Moveable=True 
+  MeshFile=cone12.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone13
+{
+  Moveable=True 
+  MeshFile=cone13.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone14
+{
+  Moveable=True 
+  MeshFile=cone14.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone15
+{
+  Moveable=True 
+  MeshFile=cone15.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone16
+{
+  Moveable=True 
+  MeshFile=cone16.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone17
+{
+  Moveable=True 
+  MeshFile=cone17.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True 
+}
+Instance=kerb12
+{
+  VisGroups=(32) 
+  MeshFile=kerb12.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb13
+{
+  VisGroups=(32) 
+  MeshFile=kerb13.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb14
+{
+  VisGroups=(32) 
+  MeshFile=kerb14.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb15
+{
+  VisGroups=(32) 
+  MeshFile=kerb15.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb16
+{
+  VisGroups=(32) 
+  MeshFile=kerb16.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb17
+{
+  VisGroups=(32) 
+  MeshFile=kerb17.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=cone18
+{
+  Moveable=True 
+  MeshFile=cone18.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone19
+{
+  Moveable=True 
+  MeshFile=cone19.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone20
+{
+  Moveable=True 
+  MeshFile=cone20.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone21
+{
+  Moveable=True 
+  MeshFile=cone21.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone22
+{
+  Moveable=True 
+  MeshFile=cone22.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=kerb18
+{
+  VisGroups=(32) 
+  MeshFile=kerb18.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb19
+{
+  VisGroups=(32) 
+  MeshFile=kerb19.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb20
+{
+  VisGroups=(32) 
+  MeshFile=kerb20.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb21
+{
+  VisGroups=(32) 
+  MeshFile=kerb21.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb22
+{
+  VisGroups=(32) 
+  MeshFile=kerb22.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb23
+{
+  VisGroups=(32) 
+  MeshFile=kerb23.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=cone23
+{
+  Moveable=True 
+  MeshFile=cone23.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=cone24
+{
+  Moveable=True 
+  MeshFile=cone24.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=kerb24
+{
+  VisGroups=(32) 
+  MeshFile=kerb24.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=cone25
+{
+  Moveable=True 
+  MeshFile=cone25.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=kerb25
+{
+  VisGroups=(32) 
+  MeshFile=kerb25.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=kerb26
+{
+  VisGroups=(32) 
+  MeshFile=kerb26.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+}
+Instance=cone26
+{
+  Moveable=True 
+  MeshFile=cone26.gmt CollTarget=True HATTarget=False ShadowCaster=(Static, Solid, 32, 32) ShadowReceiver=True
+}
+Instance=ropeup
+{
+  VisGroups=(256)
+	MeshFile=ropeup.gmt CollTarget=False HATTarget=False ShadowReceiver=True 
+}
+Instance=startpost
+{
+	MeshFile=startpost.gmt CollTarget=False HATTarget=False ShadowCaster=(Static, Solid, 32, 32) 
+}
+Instance=startlight
+{
+	MeshFile=startlight.gmt CollTarget=False HATTarget=False ShadowReceiver=True
+}
+Instance=colbox1
+{
+  Render=False 
+  MeshFile=colbox1.gmt CollTarget=True HATTarget=False 
+}
+Instance=colbox2
+{
+  Render=False 
+  MeshFile=colbox2.gmt CollTarget=True HATTarget=False 
+}
+Instance=colbox3
+{
+  Render=False 
+  MeshFile=colbox3.gmt CollTarget=True HATTarget=False 
+}
+Instance=colbox4
+{
+  Render=False 
+  MeshFile=colbox4.gmt CollTarget=True HATTarget=False 
+}
+//--------------------------------------
+Instance=xfinish
+{
+	Render=False VisGroups=(32)
+	MeshFile=xfinish.gmt CollTarget=True HATTarget=False 
+	Response=VEHICLE,TIMING 
+}
+Instance=xsector1
+{
+	Render=False VisGroups=(32)
+	MeshFile=xsector1.gmt CollTarget=True HATTarget=False 
+	Response=VEHICLE,TIMING 
+}
+Instance=xsector2
+{
+	Render=False VisGroups=(32)
+	MeshFile=xsector2.gmt CollTarget=True HATTarget=False 
+	Response=VEHICLE,TIMING 
+}
+Instance=xpitin
+{
+	Render=False VisGroups=(32)
+	MeshFile=xpitin.gmt CollTarget=True HATTarget=False 
+	Response=VEHICLE,PITSTOP 
+}
+Instance=xpitout
+{
+	Render=False VisGroups=(32)
+	MeshFile=xpitout.gmt CollTarget=True HATTarget=False 
+	Response=VEHICLE,PITSTOP 
+}
+Instance=skyboxi
+{
+  Moveable=True 
+  MeshFile=skyboxi.gmt CollTarget=False HATTarget=False 
+  Instance=Sky
+  {
+    Moveable=True 
+    MeshFile=Sky.gmt CollTarget=False HATTarget=False 
+  }
+}
